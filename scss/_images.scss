@@ -1,0 +1,100 @@
+.grupoSets {
+    margin: 20px;
+    border: 10px solid lightsalmon;
+    border-radius: 10px;
+    background-color: aquamarine;
+    image-rendering: optimizeQuality;
+  }
+  
+  .imgsets {
+    width: auto;
+    height: 100%;
+  }
+
+  .iframe {
+    @include iframe;
+    display: block;
+    margin: 50px;
+    padding: 25px;
+    border-radius: 22px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .card {
+    border: none;
+  }
+
+  form {
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  label {
+    display: block;
+    width: 100%;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: #84B472;
+    align-items: center;
+  }
+  
+  
+  .form-control-file {
+    display: block;
+    align-items: stretch;
+    color: $puce;
+    width: 90%;
+    padding: 1%px;
+    border: 3px $palep;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 10% 10% 10% 10% $fern;
+  }
+
+  .btnFormulario {
+    background-color: lightpink;
+    color: bisque;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: large;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .precios {
+    background-color: lightpink;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 90%;
+    max-width: 500px;
+  }
+
+  
+  
+  .card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+  }
+
+  /* carousel */
+.carousel-inner {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    min-height: 300px;
+    max-height: 400px !important;
+  }
+  
+  div {
+    min-width: 350px;
+  }
+  

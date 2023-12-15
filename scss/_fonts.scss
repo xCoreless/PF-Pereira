@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap');
+
+h1{ 
+    margin: 20px 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: $blush;
+    font-weight: 500;
+    font-family: 'Exo 2', sans-serif;
+    }
+
+h2,h3 {
+    text-align: center;
+    color: $puce;
+    font-weight: lighter;
+    font-family: 'Exo 2', sans-serif;
+    }
+
+h5{
+    color: $olivine;
+    text-align: center;
+    font-size: small;
+    font-weight: lighter;
+    font-family: 'Exo 2', sans-serif;
+    }
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    color: $puce;
+    font-family: 'Exo 2', sans-serif;
+     }
+
+p {
+  background-color: $magnolia;
+  color: $puce;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin: center;
+  padding: 10px;
+  font-family: 'Exo 2', sans-serif;
+}

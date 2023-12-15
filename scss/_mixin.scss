@@ -1,0 +1,21 @@
+@mixin iframe {
+    min-width: 350px;
+    max-width: fit-content;
+    margin: auto;
+    padding: 1vw;
+    }
+
+@mixin mainFont {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #D65678;
+    }
+
+@mixin ndFont {
+    text-decoration: none;
+    text-transform: none;
+    color: #517547;
+    }
+
+//* @include nombredelmix;
+
